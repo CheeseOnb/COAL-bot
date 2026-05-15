@@ -19,7 +19,7 @@ export function buildVerseEmbed(verse: VerseData, category: Category): EmbedBuil
         value: `*"${verse.KJV}"*`,
       },
     )
-    .setFooter({ text: "COAL Bot • May His Word guide your day" })
+    .setFooter({ text: "Isaiah 6:7 — He touched my mouth with a burning coal" })
     .setTimestamp();
 }
 
@@ -40,6 +40,6 @@ export function buildDailyVerseEmbed(verse: VerseData, category: Category): Embe
         value: `*"${verse.KJV}"*`,
       },
     )
-    .setFooter({ text: "COAL Bot • Delivered daily to strengthen your walk" })
+    .setFooter({ text: "Isaiah 6:7 — He touched my mouth with a burning coal" })
     .setTimestamp();
 }
